@@ -15,7 +15,7 @@ class LogIn:
         self.data = ''
 
     def verify_credentials(self):
-        print(self.password)
+        # print(self.password)
         self.hashed = self.hash.match_password(self.password)
         return self.hashed
 
